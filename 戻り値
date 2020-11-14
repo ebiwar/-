@@ -10,9 +10,7 @@
 </head>
 <body>
    
-<p>
-この下に JavaScript を使って文字列を出力します。
-</p>
+
 <script>
 
 function バナナ(old){
