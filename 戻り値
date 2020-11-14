@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    
+<meta charset="UTF-8">
+<title>JavaScript サンプル</title>
+<style>
+   
+  </style>
+</head>
+<body>
+   
+<p>
+この下に JavaScript を使って文字列を出力します。
+</p>
+<script>
+
+function バナナ(old){
+  if (old < 20){
+    document.write ('20才未満は利用できません');
+    return;
+  }
+
+  if (old > 30){
+    document.write('利用料は 2,000円です');
+  }else{
+    document.write('利用料は 1,800円です');
+  }
+}
+
+バナナ(10);
+
+
+
+</script>
+
+
+
+</body>
+</html>
