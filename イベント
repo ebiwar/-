@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random color example — event handler property</title>
+    <style>
+    
+    </style>
+  </head>
+  <body>
+    <input type="text" value="クリックしてみてね">
+    <script>
+      let input = document.querySelector('input');
+
+input.onblur = inputBlur;
+input.onfocus = inputFocus;
+
+function inputBlur() {
+  input.value = 'リンゴ';
+}
+
+function inputFocus() {
+  input.value = 'バナナ';
+}
+    </script>
+  </body>
+</html>
